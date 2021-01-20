@@ -1,0 +1,286 @@
+@CHARSET "ISO-8859-1";
+.login-body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.5)),url("e-commerce-security-fotolia.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 97.5vh;
+}
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+	height:100%;
+}
+h1{
+	margin:0px 400px 50px 50px;
+	font-size:50px;
+	color:white;
+}
+h2:after{
+	display:block;
+	content:"";
+	height:2px;
+	background-color:#0000ff;
+	width:80%;
+	margin:5px auto;
+}
+.login-header{
+	background:rgb(0,0,0,0.2);
+	height:100px;
+}
+.header{
+	background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0)),url("e-commerce-security-fotolia.jpg");
+	height:100px;
+	position:relative;
+}
+.login-footer{
+	text-align:center;
+	background:rgb(0,0,0,0.2);
+	position:fixed;
+	bottom:0;
+	width:100%;
+	height:100px;
+}
+.view-footer,.create-footer{
+	text-align:center;
+	background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0)),url("e-commerce-security-fotolia.jpg");
+	position:fixed;
+	bottom:0;
+	width:100%;
+	height:100px;
+}
+.footer{
+	text-align:center;
+	width:100%;
+	height:100px;
+	background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0)),url("e-commerce-security-fotolia.jpg");
+}
+.login-content{
+	position:fixed;
+	text-align:center;
+	background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0)),url("e-commerce-security-fotolia.jpg");
+	border-radius:100px 0px;
+	right:100px;
+	bottom:100px;
+}
+.user-content{
+	display:inline-block;
+	position:absolute;
+	right:0px;
+	top:0;
+	color:#000000;
+	background-color:#ffff80;
+	border-radius:10px;
+	font-weight:bold;
+	padding:10px;
+}
+.customerMgmt-content,.accountMgmt-content{
+	display:inline-block;
+	padding:50px;
+	margin: 100px 40px;
+	border:2px solid black;
+	text-align:center;
+	border-radius:100px 0;
+}
+.image-container{
+	display:inline-block;
+	width:60%;
+	height:400px;
+	margin:50px;
+	border:2px solid white;
+	position:relative;
+}
+.image-container > img{
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+.image-container > button{
+	position:absolute;
+	width:30px;
+	height:30px;
+	border:none;
+	border-radius:20px;
+	top:200px;
+}
+.image-container > .btnright{
+	position:relative;
+	float:right;
+}
+.create-content,.update-content,.delete-content,.search-content,.deposit-content,.transfer-content,.view-statement-content{
+	text-align:center;
+	margin: auto;
+	max-width:500px;
+	padding:50px;
+	font-size:20px;
+}
+.view-content{
+	max-width:1200px;
+	margin:auto;
+	padding:50px;
+	font-size:15px;
+	text-align:center;
+}
+.button{
+	display:inline-block;
+	text-decoration:none;
+	background-color:#ffffff;
+	color:#000000;
+	border-radius:200px;
+	padding:10px 20px;
+	margin:20px auto;
+	font-weight:bold;
+	font-size:1vw;
+	border:2px solid #0000ff;
+}
+.button:hover{
+	background-color:#8080ff;
+}
+button{
+	font-size:25px;
+	margin:0;
+	padding:0;
+}
+.dropdown{
+	position:relative;
+	display:inline-block;
+}
+.dropdown-content{
+	display:none;
+	position:absolute;
+	min-width:100%;
+	background-color:#0080c0;
+	z-index:1;
+	border-radius:10px 10px 5px 5px;
+}
+.dropdown-content a{
+	text-decoration:none;
+	padding:10px;
+	color:black;
+	display:block;
+}
+.dropdown-content a:after{
+	display:block;
+	content:"";
+	height:2px;
+	background-color:#ffff00;
+	width:80%;
+	margin:2px auto;
+}
+.dropdown:hover .dropdown-content{
+	display:block;
+}
+.dropdown-content a:hover{
+	background-color:rgb(0,0,0,0.5);
+	color:white;
+}
+.dropdown:hover .nav-btn{
+	background-color:rgb(255, 213, 0);
+	color:black;
+}
+.nav-btn{
+	text-decoration:none;
+	border:none;
+	background-color:#0080c0;
+	padding:10px;
+	color:#ffffff;
+	font-weight:bold;
+	font-size:1.2vw;
+	margin:0px;
+	border-radius:0 0 10px 10px;
+}
+.nav-btn:hover{
+	background-color:rgb(255, 213, 0);
+	color:#000000;
+}
+.executive-nav{
+	position:absolute;
+	bottom:0;
+	left:230px;
+	margin:0 auto;
+	background-color:rgb(255, 213, 0);
+	border:1px solid black;
+	max-height:10px;
+	border-radius:100px;
+}
+.cashier-nav{
+	position:absolute;
+	bottom:0;
+	left:400px;
+	margin:0 auto;
+	background-color:rgb(255, 213, 0);
+	border:1px solid black;
+	max-height:10px;
+	border-radius:100px;
+}
+ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	
+}
+li{
+	display:block;
+	float:left;
+	color:white;
+	text-align:center;
+	padding:7px;
+	margin:0;
+}
+input[type="text"],input[type="password"],select{
+	width:200px;
+	padding:7px;
+	border:2px solid #c0c0c0;
+	font-size:18px;
+	border-radius:4px;
+	font-weight:lighter;
+}
+.login_table{
+	margin:auto;
+}
+.login_table th{
+	max-width:150px;
+	color:#ffffff;
+	font-weight:lighter;
+	font-size:20px;
+}
+
+.create_table th,.update_table th,.delete_table th,.search_table th,.withdraw_table th,.deposit_table th,.account_statement_table th,.transfer_table th{
+	font-weight:lighter;
+	text-align:left;
+}
+.create_table td,.update_table td,.delete_table td,.withdraw_table td,.deposit_table td,.account_statement_table td,.transfer_table td{
+	text-align:left;
+}
+.view_table{
+	border-bottom:2px solid #0080c0;
+}
+.view_table th{
+	background-color:#0080c0;
+	color:white;
+	width:350px;
+}
+input[type="submit"],input[type="reset"],input[type="button"],button{
+	cursor:pointer;
+}
+#errPass,#errUserName{
+	color:red;
+	max-width:100px;
+}
+.mandatory_asterisk,.font-red{
+	color:red;
+}
+.font-blue{
+	color:#8080ff;
+}
+.font-white{
+	color:white;
+}
+.link{
+	text-decoration:none;
+}
+.material-icons{
+    vertical-align:bottom;
+}
+

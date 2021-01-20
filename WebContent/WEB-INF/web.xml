@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Project_Bank</display-name>
+  <welcome-file-list>
+    <welcome-file>/jsp/login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>BankController</display-name>
+    <servlet-name>BankController</servlet-name>
+    <servlet-class>com.tcs.controller.BankController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BankController</servlet-name>
+    <url-pattern>/BankController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>updatedcontroller</display-name>
+    <servlet-name>updatedcontroller</servlet-name>
+    <servlet-class>com.tcs.controller.updatedcontroller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updatedcontroller</servlet-name>
+    <url-pattern>/updatedcontroller</url-pattern>
+  </servlet-mapping>
+</web-app>
